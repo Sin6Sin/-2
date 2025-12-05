@@ -71,4 +71,5 @@ print("Сохранено: forecast_14days.csv")
 # Сохранение модели
 joblib.dump(model, 'model.pkl')
 print("МОДЕЛЬ СОХРАНЕНА: model.pkl")
+
 print("ВСЕ ГОТОВО")
