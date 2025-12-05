@@ -1,4 +1,3 @@
-python
 import pandas as pd
 import numpy as np
 import lightgbm as lgb
@@ -73,3 +72,4 @@ joblib.dump(model, 'model.pkl')
 print("МОДЕЛЬ СОХРАНЕНА: model.pkl")
 
 print("ВСЕ ГОТОВО")
+
